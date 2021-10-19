@@ -2,25 +2,25 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
-      <div class="px-2 mx-2 navbar-start">
-        <span class="text-lg font-bold">daisyUI</span>
+    <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
+      <div className="px-2 mx-2 navbar-start">
+        <span className="text-lg font-bold">daisyUI</span>
       </div>
-      <div class="hidden px-2 mx-2 navbar-center lg:flex">
-        <div class="flex items-stretch">
-          <a class="btn btn-ghost btn-sm rounded-btn">Home</a>
-          <a class="btn btn-ghost btn-sm rounded-btn">Portfolio</a>
-          <a class="btn btn-ghost btn-sm rounded-btn">About</a>
-          <a class="btn btn-ghost btn-sm rounded-btn">Contact</a>
+      <div className="hidden px-2 mx-2 navbar-center lg:flex">
+        <div className="flex items-stretch">
+          <a className="btn btn-ghost btn-sm rounded-btn">Home</a>
+          <a className="btn btn-ghost btn-sm rounded-btn">Portfolio</a>
+          <a className="btn btn-ghost btn-sm rounded-btn">About</a>
+          <a className="btn btn-ghost btn-sm rounded-btn">Contact</a>
         </div>
       </div>
-      <div class="navbar-end">
-        <button class="btn btn-square btn-ghost">
+      <div className="navbar-end">
+        <button className="btn btn-square btn-ghost">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            class="inline-block w-6 h-6 stroke-current"
+            className="inline-block w-6 h-6 stroke-current"
           >
             <path
               stroke-linecap="round"
@@ -30,12 +30,12 @@ const Navbar = () => {
             ></path>
           </svg>
         </button>
-        <button class="btn btn-square btn-ghost">
+        <button className="btn btn-square btn-ghost">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            class="inline-block w-6 h-6 stroke-current"
+            className="inline-block w-6 h-6 stroke-current"
           >
             <path
               stroke-linecap="round"
