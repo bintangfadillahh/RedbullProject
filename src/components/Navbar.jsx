@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { navData } from "../data/navData";
 
 const Navbar = () => {
   return (
@@ -8,10 +10,13 @@ const Navbar = () => {
       </div>
       <div className="hidden px-2 mx-2 navbar-center lg:flex">
         <div className="flex items-stretch">
-          <a className="btn btn-ghost btn-sm rounded-btn">Home</a>
-          <a className="btn btn-ghost btn-sm rounded-btn">Portfolio</a>
-          <a className="btn btn-ghost btn-sm rounded-btn">About</a>
-          <a className="btn btn-ghost btn-sm rounded-btn">Contact</a>
+          {navData.map((data) => {
+            return (
+              <NavLink to={data.url} exact>
+                {data.name}
+              </NavLink>
+            );
+          })}
         </div>
       </div>
       <div class="navbar-end"></div>
