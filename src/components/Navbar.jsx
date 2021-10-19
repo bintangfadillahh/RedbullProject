@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex items-stretch">
           {navData.map((data) => {
             return (
-              <NavLink to={data.url} exact>
+              <NavLink to={data.url} exact className="btn btn-ghost">
                 {data.name}
               </NavLink>
             );
