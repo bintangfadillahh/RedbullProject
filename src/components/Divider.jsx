@@ -4,7 +4,7 @@ import { MdOutlineContactSupport } from "react-icons/md";
 
 const Divider = () => {
   return (
-    <div className="flex flex-row w-full text-light">
+    <div className="flex flex-row w-full text-white">
       <div className="grid flex-grow card place-items-center mx-24">
         <MdOutlineContactSupport className="text-8xl" />
         <h1 className="mb-5 text-3xl font-bold">About Us</h1>
