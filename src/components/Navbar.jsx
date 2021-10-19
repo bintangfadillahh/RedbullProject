@@ -19,7 +19,7 @@ const Navbar = () => {
           })}
         </div>
       </div>
-      <div class="navbar-end"></div>
+      <div className="navbar-end"></div>
     </div>
   );
 };
