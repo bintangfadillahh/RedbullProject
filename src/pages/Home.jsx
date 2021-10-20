@@ -1,9 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Divider from "../components/Divider";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Fragment>
+      <Hero />
+      <Divider />
+    </Fragment>
   );
 }
