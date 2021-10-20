@@ -1,6 +1,7 @@
 import React from "react";
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineContactSupport } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Divider = () => {
   return (
@@ -14,9 +15,9 @@ const Divider = () => {
           temporibus quo, maxime quaerat magnam sint quia odit recusandae
           repudiandae debitis cumque non.
         </p>
-        <a href="#" className="btn btn-outline btn-primary">
+        <Link to="/profil" className="btn btn-outline btn-primary">
           PROFILE
-        </a>
+        </Link>
       </div>
       <div className="grid flex-grow card place-items-center mx-24">
         <CgProfile className="text-8xl" />
@@ -27,9 +28,9 @@ const Divider = () => {
           praesentium, sequi mollitia, amet nam? Nemo facere velit maiores
           similique illo.
         </p>
-        <a href="#" className="btn btn-outline btn-primary">
+        <Link to="/about" className="btn btn-outline btn-primary">
           CONTACT
-        </a>
+        </Link>
       </div>
     </div>
   );
