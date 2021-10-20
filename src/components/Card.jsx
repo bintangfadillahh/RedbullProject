@@ -3,7 +3,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 export default function Card(props) {
   return (
-    <div class="flex items-center w-3/5 mx-auto px-4 py-10 bg-cover card bg-base-200">
+    <div class="flex items-center w-3/5 mx-auto px-4 py-10 bg-cover card bg-dark-200">
       <div class="card glass lg:card-side text-neutral-content">
         <div class="avatar items-center p-5">
           <div class="rounded-btn h-96 w-64">
