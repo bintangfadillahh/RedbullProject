@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/RedbullProject/static/css/main.a321a87f.chunk.css",
+    "main.js": "/RedbullProject/static/js/main.a6acb090.chunk.js",
+    "main.js.map": "/RedbullProject/static/js/main.a6acb090.chunk.js.map",
+    "runtime-main.js": "/RedbullProject/static/js/runtime-main.4ff91d5e.js",
+    "runtime-main.js.map": "/RedbullProject/static/js/runtime-main.4ff91d5e.js.map",
+    "static/js/2.f568ba9e.chunk.js": "/RedbullProject/static/js/2.f568ba9e.chunk.js",
+    "static/js/2.f568ba9e.chunk.js.map": "/RedbullProject/static/js/2.f568ba9e.chunk.js.map",
+    "static/js/3.0f6c51b7.chunk.js": "/RedbullProject/static/js/3.0f6c51b7.chunk.js",
+    "static/js/3.0f6c51b7.chunk.js.map": "/RedbullProject/static/js/3.0f6c51b7.chunk.js.map",
+    "index.html": "/RedbullProject/index.html",
+    "static/css/main.a321a87f.chunk.css.map": "/RedbullProject/static/css/main.a321a87f.chunk.css.map",
+    "static/js/2.f568ba9e.chunk.js.LICENSE.txt": "/RedbullProject/static/js/2.f568ba9e.chunk.js.LICENSE.txt",
+    "static/media/aldi.59c16a90.jpg": "/RedbullProject/static/media/aldi.59c16a90.jpg",
+    "static/media/asep.18177e4b.jpg": "/RedbullProject/static/media/asep.18177e4b.jpg",
+    "static/media/bintang.060894a7.jpg": "/RedbullProject/static/media/bintang.060894a7.jpg",
+    "static/media/dian.611bfbe4.jpg": "/RedbullProject/static/media/dian.611bfbe4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ff91d5e.js",
+    "static/js/2.f568ba9e.chunk.js",
+    "static/css/main.a321a87f.chunk.css",
+    "static/js/main.a6acb090.chunk.js"
+  ]
+}
